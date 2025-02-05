@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="app">
+        <h1>Timer</h1>
+        
+        <div id="timerContainer">
+            <p id="content">00:00:00</p>
+
+            <div id="timerButtonContainer">
+                <button id="startButton" onclick="start()">start</button>
+                <button id="stopButton" onclick="stop()">stop</button>
+                <button id="resetButton" onclick="reset()">reset</button>
+                <button id="saveButton" onclick="save()">save</button>
+            </div>
+
+        </div>
+        
+        <div id="historyContainer">
+            <h3>Saved time</h3>
+            
+            <div id="historyLine">
+                <p id="history">00:00:00</p>
+                <button id="clearButton" onclick="clearTime()">Clear saved time</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
