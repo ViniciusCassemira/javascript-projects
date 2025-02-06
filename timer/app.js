@@ -105,7 +105,19 @@ function reset(){
 
 function save(){
     totalTime.second += time.second;
+    
+    if(totalTime.second >= 60){
+        totalTime.minute += totalTime.second / 60;
+        totalTime.second %= 60;
+    }
+
     totalTime.minute += time.minute;
+
+    if(totalTime.minute >= 60){
+        totalTime.hour += totalTime.minute / 60;
+        totalTime.minute %= 60;
+    }
+
     totalTime.hour += time.hour;
 
     let second = String(totalTime.second).padStart(2,'0');
