@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#app{
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    width: 280px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: rgb(213,10,157);
+    background: linear-gradient(90deg, rgba(213,10,157,1) 0%, rgba(252,75,210,1) 35%, rgba(212,60,206,1) 100%);
+}
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    width: calc(23% - 5px);
+    height: 55px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: white;
+}
+
+#buttonArea{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+button:hover{
+    scale: 1.05;
+    background-color: rgb(70, 70, 70);
+}
+
+h1{
+    color: white;
+    font-family: arial;
+}
+
+#resultButton{
+    background-color: orange;
+}
+
+#resetButton{
+    color: red;
+}
+
+#visor{
+    height: 40px;
+    font-size: 24px;
+    border: transparent;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding: 2px;
+    width: 95%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}

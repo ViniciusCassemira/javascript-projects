@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Calculator</h1>
+        <input type="text" id="visor" readonly></input>
+
+        <div id="buttonArea">
+            <button id="resetButton" onclick="reset()">C</button>
+            <button onclick="addValue('(')">(</button>
+            <button onclick="addValue(')')">)</button>
+            <button onclick="addValue('/')">/</button>
+            <button onclick="addValue(7)">7</button>
+            <button onclick="addValue(8)">8</button>
+            <button onclick="addValue(9)">9</button>
+            <button onclick="addValue('*')">X</button>
+            <button onclick="addValue(4)">4</button>
+            <button onclick="addValue(5)">5</button>
+            <button onclick="addValue(6)">6</button>
+            <button onclick="addValue('-')">-</button>
+            <button onclick="addValue(1)">1</button>
+            <button onclick="addValue(2)">2</button>
+            <button onclick="addValue(3)">3</button>
+            <button onclick="addValue('+')">+</button>
+            <button onclick="deleteInput()"><<</button>
+            <button onclick="addValue(0)">0</button>
+            <button onclick="addValue('.')">.</button>
+            <button id="resultButton" onclick="result()">=</button>
+        </div>
+    </div>
+        
+        <script src="./app.js"></script>
+</body>
+</html>
