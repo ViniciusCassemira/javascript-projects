@@ -1,7 +1,13 @@
 const input = document.getElementById('visor');
+const operates = ['+', '-', '.', '*', '/', '(', ')'];
 
-function addValue(x){
-    input.value += x 
+
+function addValue(_value){
+    if(operates.includes(input.value.slice(-1)) && operates.includes(_value)){
+        return;
+    }
+
+    input.value += _value;
 }
 
 function reset(){
@@ -14,5 +20,14 @@ function deleteInput(){
 }
 
 function result(){
-    input.value = eval(input.value);
+    if(input.value == ""){
+        input.value = ""
+        return;
+    }
+    
+    try{
+        input.value = eval(input.value);
+    } catch (error){
+        input.value = "";
+    }
 }
