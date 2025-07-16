@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -10,7 +12,7 @@
 
 body{
     text-align: center;
-    font-family: arial;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -43,7 +45,6 @@ h3{
 
 #historyContainer{
     margin-top: 70px;
-    /* visibility: hidden; */
 }
 
 #historyLine{

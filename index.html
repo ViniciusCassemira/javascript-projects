@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="" href="">
+    <title>JS - Projects</title>
 </head>
 <body>
-    <style>
-        body{
-            text-align: center;
-        }
-        a{
-            text-decoration: none;
-        }
-    </style>
-    <h1>Welcome</h1>
+    <main>
+        <h1>JavaScripts Projects</h1>
+        
+        <p id="subtitle">
+            Check out some of the projects I’ve built using HTML, CSS, and pure JavaScript. If you liked what you saw, <a target="_blank" href="https://github.com/ViniciusCassemira/javascript-projects">click here</a> and leave a 🌟 on the repository :)
+        </p>
 
-    <div id="links-container">
-        <a href="./utfClock/">UTF Clock</a>
-        <br><br>
-        <a href="./timer/">Timer</a>
-        <br><br>
-        <a href="./calculator/">Calculator</a>
-    </div>
+        <div id="projects">
+            <div class="project">
+                <a target="_blank" href="./calculator/index.html">
+                    <img src="./src/calculator.svg" alt="">
+                    <p class="description">Calculator</p>
+                </a>  
+            </div>
+
+            <div class="project">
+                <a target="_blank" href="./smart-clock/index.html">
+                    <img src="./src/clock.svg" alt="">
+                    <p class="description">Smart Clock</p>
+                </a>
+            </div>
+
+            <div class="project">
+                <a target="_blank" href="">
+                    <img src="./src/timer.svg" alt="">
+                    <p class="description">Timer</p>
+                </a>
+            </div>
+
+            <div class="project">
+                <a target="_blank" href="">
+                    <img src="./src/todo.svg" alt="">
+                    <p class="description">Todo List</p>
+                </a>          
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed with ❤️ by <a target="_blank" href="https://github.com/viniciuscassemira">Vinicius Cassemira</a></p>
+    </footer>
 
     <script src="./app.js"></script>
 </body>

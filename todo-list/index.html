@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/favicon.svg" />
+    <title>Checklist</title>
+  </head>
+  
+  <body>
+    <h1>Todo List</h1>
+    <main>
+      <ul id="lista"></ul>
+      <input type="text" maxlength="60" id="novoItem" autocomplete="off" />
+      <button id="button" onClick="adicionarItem()">Add item</button>
+      <p id="alert"><em>Máximo 60 caracteres</em></p>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-
 #app{
     background-color: #1f1f1f;
     border-radius: 8px;
-    width: 280px;
-    height: 400px;
+    width: 300px;
+    height: 420px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -22,6 +23,7 @@ body{
     display: flex;
     background: rgb(213,10,157);
     background: linear-gradient(90deg, rgba(213,10,157,1) 0%, rgba(252,75,210,1) 35%, rgba(212,60,206,1) 100%);
+    font-family: 'Poppins', sans-serif;
 }
 
 button{
@@ -50,7 +52,7 @@ button:hover{
 
 h1{
     color: white;
-    font-family: arial;
+    font-weight: 500;
 }
 
 #resultButton{
@@ -66,12 +68,12 @@ h1{
     font-size: 24px;
     border: transparent;
     color: white;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(143, 143, 143);
     display: flex;
     align-items: center;
     text-align: right;
     padding: 2px;
-    width: 95%;
+    width: 90%;
     margin-bottom: 15px;
     border-radius: 5px;
 }
