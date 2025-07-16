@@ -1,0 +1,29 @@
+#nome do workflow que aparece na aba "actions" do GitHub
+name: Docker Image CI
+
+#define quando esse workflow será executado
+on:
+  push:
+    branches: 
+      - master  #sempre que houver um push na branch main
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest  #define que o job vai rodar em uma máquina virtual com ubuntu
+
+    steps:
+      #faz o checkout do código do repositório (traz os arquivos para o runner)
+      - name: Checkout do código
+        uses: actions/checkout@v4 #usa a ação oficial do github para clonar o repositório
+
+      #faz login no docker hub usando os segredos definidos no github (secrets) sem expor o token
+      - name: Login no DockerHub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+
+      #constroi a imagem docker com base no Dockerfile presente na raiz do projeto
+      - name: Build da imagem
+        run: docker build -t viniciuscassemira/js-projects:latest .
+
+      #envia a imagem recém-criada para o docker hub
+      - name: Push da imagem
+        run: docker push viniciuscassemira/js-projects:latest
