@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/favicon.svg">
+    <title>API consumption test</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Rick and Morty API request</h1>
+        
+        <div>
+            <input type="text" id="input" placeholder="type a character from Rick and Morty">
+            <button id="search-button" onclick="first()">Search</button>
+            <button id="clear-button" onclick="reset()">Clean</button>
+        </div>
+
+        <p id="response"></p>
+
+        <div id="result-content">
+        </div>
+        
+        <div id="button-area">
+            <button id="button-prev" onclick="prev()">prev</button>
+            <button id="button-next" onclick="next()">next</button>
+        </div>
+        
+
+
+    </div>
+    <footer>
+        <p>
+            develop by <a href="https://github.com/ViniciusCassemira">Vinicius Cassemira</a>
+        </p>
+        <p>
+            v1.0
+        </p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>

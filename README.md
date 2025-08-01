@@ -17,6 +17,7 @@ Check out the complete list of all existing projects below, view their details o
 | **Timer** | [Click here](./timer/) | [View project](https://vinicius-js.netlify.app/timer/) |
 | **Todo list** | [Click here](./todo-list/) | [View project](https://vinicius-js.netlify.app/todo-list/) |
 | **Star dash** | [Click here](./phaser-star-dash/) | [View project](https://vinicius-js.netlify.app/phaser-star-dash/) |
+| **Rick and Morty API Request** | [Click here](./rick-and-morty/) | [View project](https://vinicius-js.netlify.app/rick-and-morty/) |
 
 ---
 
