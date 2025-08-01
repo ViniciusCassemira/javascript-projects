@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>Chinês das Peças - Cadastro</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilosCadastro.css">
+        <link rel="shortcut icon" href="img/favicon.svg">
+    </head>
+    <body>
+        <header class="cabecalho"> <!--Cabecalho do site, existe em todas as "abas"-->
+            <a href="index.html"><img class=" cabecalho-imagem" src="img/imagem-cabecalho.png" alt="Logo Chinês das Peças"></a> <!--Logo do cabecalho-->
+            
+            <nav class="cabecalho-menu">
+                <a class="cabecalho-menu-item" href="index.html">Tela Inicial</a>
+                <a class="cabecalho-menu-item" href="produtos.html">Produtos</a>
+                <a class="cabecalho-menu-item pagina-atual" href="cadastro.html">cadastrar-se</a>
+                <a class="cabecalho-menu-item" href="sobreNos.html">sobre nós</a>
+            </nav>
+        </header>
+
+        <main class="conteudo"> <!--Conteúdo daquela aba-->
+            <div>
+                <h2 class="cadastro-titulo">Cadastrar-se</h2>
+                <p class="cadastro-subtitulo">Complete com suas informações</p>
+            </div>
+                
+            <fieldset class="cadastro-conteudo">
+                <form action="" class="cadastro-conteudo-formulario"> <!--Cadastro de cliente/contato-->
+
+                    <div class="cadastro-conteudo-formulario-grupo">
+                        <div class="cadastro-conteudo-formulario-coluna">
+                            <label for="inome">Nome</label>
+                            <input type="text" id="inome" name="nome" placeholder="Seu primeiro nome" required>
+                        </div>
+
+                        <div class="cadastro-conteudo-formulario-coluna">
+                        <label for="isobrenome">Sobrenome</label>
+                        <input type="text" id="isobrenome" name="sobrenome" placeholder="Seu sobrenome" required>
+                        </div>
+                    </div>
+
+                    <div class="cadastro-conteudo-formulario-grupo">
+                        <div class="cadastro-conteudo-formulario-coluna">
+                        <label for="icpf">CPF</label>
+                        <input type="number" id="icpf" name="cpf" placeholder="Somente números" required>
+                        </div>
+                    
+                        <div class="cadastro-conteudo-formulario-coluna">
+                        <label for="inascimento">Data de nascimento</label>
+                        <input type="date" id="inascimento" name="nascimento" required>
+                        </div>
+                    </div>
+
+                    <div class="cadastro-conteudo-formulario-grupo">
+                        <div class="cadastro-conteudo-formulario-coluna">
+                            <label for="isexualidade">Sexualidade</label>
+                            <select id="isexualidade" required>
+                                <option selected disabled value="">Selecione</option>
+                                <option>Feminino</option>
+                                <option>Masculino</option>
+                            </select>
+                        </div>
+
+                        <div class="cadastro-conteudo-formulario-coluna">
+                            <label for="iemail">E-mail</label>
+                            <input type="email" id="iemail" name="email"   placeholder="Informe seu melhor e-mail" required>
+                        </div>
+                    </div>
+                    
+                    <div class="cadastro-conteudo-formulario-grupo">
+                        <div class="cadastro-conteudo-formulario-coluna">
+                            <label for="itelefone">Telefone</label>
+                            <input type="number" id="itelefone" name="telefone" placeholder="ddd + seu número">
+                        </div>
+                    </div>
+                    
+                    <div class="cadastro-conteudo-formulario-promocao">
+                        <label for="ipromocoes">Receber promoções e novidades por e-mail</label>
+                        <input type="checkbox" id="ipromocoes" name="promocoes">
+                    </div>
+                    
+                    <div class="cadastro-conteudo-formulario-botao"> <!--Botão sem função, apenas visual-->
+                        <button id="ibotaocadastro" type="submit">Realizar Cadastro</button>
+                    </div>    
+                </form>    
+            </fieldset>
+        </main>
+
+        <footer class="rodape"> <!--Rodapé do site, também existe em todas as "abas"-->
+            <p>Chinês das Peças Ltda.</p>
+            <adress>
+                Rua xing Xong nº345 - Xangai 
+                <abbr title="Endereço para fins educativos, nada real">电脑</abbr>
+            </adress>
+            <p>Conteúdo criado para fim educaional, desconsidere erros ortográficos, de lógica e/ou de programação, estou no começo do meu aprendizado.</p>
+        </footer>
+    </body>
+</html>

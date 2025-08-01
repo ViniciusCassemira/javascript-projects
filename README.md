@@ -18,6 +18,7 @@ Check out the complete list of all existing projects below, view their details o
 | **Todo list** | [Click here](./todo-list/) | [View project](https://vinicius-js.netlify.app/todo-list/) |
 | **Star dash** | [Click here](./phaser-star-dash/) | [View project](https://vinicius-js.netlify.app/phaser-star-dash/) |
 | **Rick and Morty API Request** | [Click here](./rick-and-morty/) | [View project](https://vinicius-js.netlify.app/rick-and-morty/) |
+| **Hardware Store** | [Click here](./hardware-store/) | [View project](https://vinicius-js.netlify.app/hardware-store/) |
 
 ---
 

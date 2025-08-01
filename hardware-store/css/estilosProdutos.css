@@ -1,0 +1,161 @@
+.conteudo-titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.produtos-promocao-titulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.produtos-promocao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: rgb(169, 196, 243);
+    flex-wrap: wrap;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+    padding: 0px;
+    margin: 1%;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+figure:hover{
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+img{
+    display: flex;
+    align-items: center;
+    width: 155px;
+    height: 165px;
+    border-radius: 8px;
+}
+figcaption{
+    background-color: rgb(75, 75, 228);
+    border-radius: 4px;
+    text-align: center;
+    padding: 2px;
+    
+}
+
+.produto-lancamento-titulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.produto-lancamento{
+    display: flex;
+    flex-direction: row;
+}
+
+.produto-lancamento-esquerda{
+    margin-left:2%;
+    padding: 0;
+}
+.produto-lancamento-video{
+    border-radius: 10px;
+}
+
+.produto-lancamento-direita{
+    display: flex;
+    flex-direction: column;
+}
+.produto-lancamento-direita-cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+.produto-lancamento-direita-cabecalho-titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.produto-lancamento-direita-cabecalho-subtitulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.produto-lancamento-direita-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-lancamento-direita-conteudo-grupo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+.produto-lancamento-direita-conteudo-botao{
+    border-radius: 6px;
+    padding: 4px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #5a8cef;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    color: white;
+    border: none;
+
+    width: max-content;
+    align-self: center;
+}
+
+.produto-lancamento-direita-conteudo-botao:hover{
+    background-color: #3172F2;
+    transition: background-color 0.25s;
+}
+
+
+.produto-lancamento-direita-conteudo-grupo-titulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.produto-lancamento-direita-conteudo-grupo-texto{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width: 850px){
+    .produtos-promocao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto-lancamento{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto-lancamento-esquerda{
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+}

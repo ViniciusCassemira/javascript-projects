@@ -1,0 +1,94 @@
+.cadastro-titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+
+    display: flex;
+    justify-content: center;
+}
+.cadastro-subtitulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro-conteudo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+.cadastro-conteudo-formulario{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.cadastro-conteudo-formulario-grupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cadastro-conteudo-formulario-coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-conteudo-formulario-promocao{
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   gap: 10px;
+}
+
+.cadastro-conteudo-formulario-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#ibotaocadastro{
+    display: flex;
+    border-radius: 6px;
+    padding: 6px;
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #5a8cef;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    color: white;
+    border: none;
+}
+#ibotaocadastro:hover{
+    background-color: #3172F2;
+    transition: background-color 0.25s;
+}
+
+.cadastro-conteudo-formulario-coluna input, .cadastro-conteudo-formulario-telefone input{
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    padding: 0.2em;
+    border: 1px solid #2d4677;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+.cadastro-conteudo-formulario-coluna select{
+    border-radius: 4px;
+    width: 209px;
+    height: 28px;
+
+    padding: 0.2em;
+    border: 1px solid #2d4677;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+@media (max-width: 700px){
+
+}

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0%;
+    text-decoration: none;
+    padding: 0%;
+}
+
+body{
+    background-color: #5f78a6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cabecalho{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    padding-bottom: 10px;
+    border-bottom: solid #2d4677 1px ;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 1vw;
+}
+.cabecalho-menu-item{
+    color: #5f78a6;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 6px;
+    padding: 4px;
+}
+.cabecalho-menu-item:hover{
+    background-color: #dce7fd;
+    border: 0.5px solid #dce7fd;
+
+}
+.cabecalho-imagem{
+    width: 7vw;
+    height: 4.5vw;  
+}
+
+.pagina-atual{
+    border: 0.5px solid #ffffff;
+    background-color: #5f78a6;
+    color: white;
+}
+.pagina-atual:hover{
+    background-color: transparent;
+    border: 0.5px solid white
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.conteudo-cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.conteudo-cima-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.conteudo-cima-texto-titulo{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+.conteudo-cima-texto-subtitulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+.conteudo-cima-botao{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #5a8cef;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width:150px;
+    text-align: center;
+}
+.conteudo-cima-botao:hover{
+    background-color: #3172F2;
+    transition: background-color 0.25s;
+}
+.conteudo-cima-imagem{
+    height: 160px;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.conteudo-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.conteudo-baixo-titulo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    border-top: solid #2d4677 1px;
+    padding-top:30px;
+}
+.conteudo-baixo-paragrafo{
+    font-family: "Mukta Vaani", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Estilização conteúdo rodapé*/
+
+.rodape{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape p{
+    align-items: center;
+}
+    
+@media (max-width: 700px){
+    .cabecalho-menu-item{
+        font-size: 2.5vw;
+    }
+
+
+    .conteudo-cima{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 35px;
+    }
+    .conteudo-cima-texto{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo-baixo{
+        margin: 35px;
+    }
+}
