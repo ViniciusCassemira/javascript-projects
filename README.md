@@ -13,7 +13,6 @@ Check out the complete list of all existing projects below, view their details o
 | Project | Details | View |
 |---------|---------|------|
 | **Calculator** | [Click here](./calculator/) | [View project](https://vinicius-js.netlify.app/calculator/) |
-| **Smart Clock** | [Click here](./smart-clock/) | [View project](https://vinicius-js.netlify.app/smart-clock/) |
 | **Timer** | [Click here](./timer/) | [View project](https://vinicius-js.netlify.app/timer/) |
 | **Todo list** | [Click here](./todo-list/) | [View project](https://vinicius-js.netlify.app/todo-list/) |
 | **Star dash** | [Click here](./phaser-star-dash/) | [View project](https://vinicius-js.netlify.app/phaser-star-dash/) |
